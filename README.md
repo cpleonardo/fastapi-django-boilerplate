@@ -24,15 +24,22 @@ A basic boilerplate configuration for creating a project that leverages the spee
     ```sh
     poetry shell
     ```
+    
+4. (Optional) Create a super user:
+    ```sh
+    cd src
+    python manage.py createsuperuser
+    ```
 
-4. Run the FastAPI server:
+5. Run the FastAPI server:
     ```sh
     chmod +x run_server.sh
     ./run_server.sh
     ```
 
 ## Usage
-- Access the API documentation at `http://127.0.0.1:8000/docs` for Swagger UI or `http://127.0.0.1:8000/redoc` for ReDoc.
+- Access the API documentation at `http://localhost:8000/docs` for Swagger UI or `http://localhost:8000/redoc` for ReDoc.
+- Access the Django Admin panel at `http://localhost:8000/admin`.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
