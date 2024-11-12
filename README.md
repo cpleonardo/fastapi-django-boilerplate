@@ -19,7 +19,13 @@ Basic configuration to create a project based on FastAPI alongside Django ORM an
     poetry install
     ```
 
-3. Run the FastAPI server:
+
+3. Activate virtual environment:
+    ```sh
+    poetry shell
+    ```
+
+4. Run the FastAPI server:
     ```sh
     chmod +x run_server.sh
     ./run_server.sh
