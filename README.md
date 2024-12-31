@@ -1,4 +1,4 @@
-### FastAPI Django-ORM Boilerplate
+### FastAPI with Django ORM Boilerplate
 A basic boilerplate configuration for creating a project that leverages the speed and simplicity of FastAPI for building APIs and the powerful Django ORM for managing database interactions. This configuration allows developers to benefit from FastAPI’s asynchronous capabilities for handling high-performance requests while taking advantage of Django's mature ORM and admin interface for database and content management.
 
 ## Features
