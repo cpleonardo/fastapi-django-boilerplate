@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "fastapi-django-boilerplate"
+name = "prometeo"
 version = "0.1.0"
-description = "FastAPI with Django ORM boilerplate"
+description = "Prometeo Rest API"
 authors = ["César Pineda <pinedacesar94@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
